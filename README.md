@@ -1,11 +1,17 @@
 
 
 Backend:
-cd backend
-node .
 
+```bash
+cd backend
+
+node .
+```
 
 Frontend:
 
+```bash
 cd frontend
+
 npm run dev
+``
