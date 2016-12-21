@@ -1,0 +1,22 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "testing": {
+      "type": "string",
+      "default": "\"hello world\""
+    },
+    "age": {
+      "type": "number",
+      "default": 18
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
